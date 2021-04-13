@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+main -> contact: 首页进入通讯录页面
+main -> add_contact:首页导入通讯录
+main -> add_member:首页添加成员
+contact -> contact:通讯录页面添加部门
+contact -> add_member:通讯录页面添加成员
+contact -> add_contact:通讯录页面导入通讯录
+contact -> contact:检查是否添加成员成功
+contact -> contact:检查是否添加部门成功
+add_member -> contact:保存进入通讯录页面
+add_member -> contact:取消返回录页面
+add_member -> add_member:保存并继续添加
+'add_contact -> add_contact:导入通讯录页面，上传文件
+add_contact ->contact:导入完成进入通讯录页面查看
+
+@enduml
