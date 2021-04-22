@@ -1,0 +1,8 @@
+bymenual:
+  - by: id
+    locator: cn9
+    action: click
+contactlist:
+  - by: id
+    locator: h86
+    action: click

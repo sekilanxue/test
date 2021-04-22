@@ -1,0 +1,6 @@
+- by: id
+  locator: e37
+  action: click
+- by: id
+  locator: bei
+  action: click

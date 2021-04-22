@@ -1,0 +1,3 @@
+- by: id
+  locator: h8g
+  action: click

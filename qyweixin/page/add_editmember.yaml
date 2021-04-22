@@ -1,0 +1,11 @@
+- by: id
+  locator: ays
+  action: send
+  value: 宋蓝雪
+- by: id
+  locator: f4m
+  action: send
+  value: "18612001361"
+- by: id
+  locator: ac9
+  action: click
